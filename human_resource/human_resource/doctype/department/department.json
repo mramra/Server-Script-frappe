@@ -13,13 +13,12 @@
   {
    "fieldname": "department_name",
    "fieldtype": "Data",
-   "in_list_view": 1,
    "label": "Department Name"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-01-16 00:19:36.176790",
+ "modified": "2023-01-16 01:43:52.583299",
  "modified_by": "Administrator",
  "module": "Human Resource",
  "name": "Department",

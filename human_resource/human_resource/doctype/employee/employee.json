@@ -11,7 +11,6 @@
   "first_name",
   "middle_name",
   "last_name",
-  "full_name",
   "image",
   "status",
   "employee_number",
@@ -38,11 +37,6 @@
    "label": "Last Name"
   },
   {
-   "fieldname": "full_name",
-   "fieldtype": "Data",
-   "label": "Full Name"
-  },
-  {
    "fieldname": "image",
    "fieldtype": "Attach Image",
    "label": "Image"
@@ -60,12 +54,13 @@
   },
   {
    "fieldname": "date_of_birth",
-   "fieldtype": "Data",
+   "fieldtype": "Date",
+   "in_list_view": 1,
    "label": "Date of Birth"
   },
   {
    "fieldname": "date_of_joining",
-   "fieldtype": "Data",
+   "fieldtype": "Date",
    "label": "Date of Joining"
   },
   {
@@ -89,7 +84,7 @@
  "image_field": "image",
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-01-16 00:21:44.323144",
+ "modified": "2023-01-20 20:39:46.116599",
  "modified_by": "Administrator",
  "module": "Human Resource",
  "name": "Employee",
@@ -107,6 +102,15 @@
    "role": "System Manager",
    "share": 1,
    "write": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Blogger",
+   "share": 1
   }
  ],
  "sort_field": "modified",
