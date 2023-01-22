@@ -6,7 +6,7 @@ from frappe.model.document import Document
 import frappe.utils
 class Employee(Document):
 	def validate(self):
-		if (self.first_name and self.middle_name and self.last_name):
+		if self.first_name and self.middle_name and self.last_name:
 			self.full_name = self.first_name + " " + self.middle_name + " " + self.last_name
 		else:
 			frappe.throw("ادخال اسم موظف كامل")
@@ -30,6 +30,7 @@ class Employee(Document):
 		else:
 			frappe.throw("رقم موبايل يجب ان يبداء 059")
 
+		self.count_employee_education=0
 		for x in self.employee_education:
 			self.count_employee_education =self.count_employee_education+1
 
