@@ -37,3 +37,5 @@ class Employee(Document):
 		if self.count_employee_education < 2:
 			frappe.throw("الشهادات يجب ان تكون شهادتين")
 
+
+

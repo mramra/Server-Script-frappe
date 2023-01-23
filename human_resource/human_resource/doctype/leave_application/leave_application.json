@@ -58,7 +58,8 @@
   {
    "fieldname": "total_leave_days",
    "fieldtype": "Float",
-   "label": "Total Leave Days"
+   "label": "Total Leave Days",
+   "read_only": 1
   },
   {
    "fieldname": "alternative_employee",
@@ -95,7 +96,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-01-23 00:22:14.558372",
+ "modified": "2023-01-23 03:25:08.148716",
  "modified_by": "Administrator",
  "module": "Human Resource",
  "name": "Leave Application",
